@@ -1,5 +1,5 @@
-HTML5-STRAPLESS
-===============
+HTML5-STRAP V2
+==============
 
 A personal HTML5 & Bootstrap framework combination.
 
