@@ -14,7 +14,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <link rel="shortcut icon" href="assets/images/ico/favicon.ico">
 <link rel="stylesheet" href="assets/css/strap.css.php?css=<?=$css?>">
-<!-- <link rel="stylesheet" href="assets/css/responsive.css"> -->
 <?=emptyblock('head');?>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="assets/js/modernizr.js"></script>
