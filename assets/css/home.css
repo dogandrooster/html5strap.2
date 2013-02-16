@@ -1,0 +1,113 @@
+/*!
+ * CSS Modification by Mark Rivera & Richard Hilton - Dog and Rooster, Inc., 2013
+ * Copyright by M.Rivera & R.Hilton, 2013
+ *
+ * CSS Home
+ */
+
+/* OVERRIDE STYLES */
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  overflow-y: scroll;
+}
+body {  }
+
+.wrap { 
+	clear: both;
+	float: left;
+	position: relative;
+	width: 100%;
+	margin: 0;
+	z-index: 1;
+}
+.wrap.header { 
+	background: #FFF;
+	height: 100px;
+	border-bottom: solid 1px #CCC;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.25);
+}
+.wrap.footer {
+	background: #888;
+	color: #FFF;
+	padding: 10px 0 20px;
+	border-top: solid 5px rgba(0,0,0,.15);
+}
+.wrap.content {
+	min-height: 1%;
+	z-index: 0;
+}
+
+header,
+footer,
+#main { 
+	position: relative;
+	width: 1200px;
+	margin: auto; 
+}
+
+header { height: 100%; }
+header #hdr-logo {
+	float: left;
+	background: #EFEFEF;
+	text-align: center;
+	text-decoration: none;
+	width: 320px;
+	height: 100px;
+}
+header #hdr-logo:before {
+	content: "Welcome to HTML5 v2";
+	line-height: 100px;
+	z-index: 1;
+}
+header button.media-btn { display: none; }
+
+nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: auto;
+	height: 100px;
+	z-index: 2;
+}
+nav li {
+	float: left;
+	display: inline-block;
+	line-height: 100px;
+	margin-left: 20px;
+}
+nav li a:hover { text-decoration: none; }
+
+#main { min-height: 100%; }
+
+/* END of OVERRIDE STYLES */
+
+.framebox {
+	background: #FFF;
+	width: 1200px;
+	margin: 0;
+}
+
+.framebox section {
+	text-align: center;
+}
+
+.framebox section h1.welcome {
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: solid 1px #CCC;
+}
+
+.framebox section h1 small {
+	display: block;
+	font-size: 16px;
+	line-height: 32px;
+}
+
+.framebox section .hero-unit { margin-bottom: 20px; }
+.framebox section .hero-unit h1 { 
+	border-bottom: 0; 
+}

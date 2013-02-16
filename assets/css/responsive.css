@@ -1,0 +1,50 @@
+/*!
+ * CSS Modification by Mark Rivera & Richard Hilton - Dog and Rooster, Inc., 2013
+ * Copyright by M.Rivera & R.Hilton, 2013
+ *
+ * Responsive
+ */
+
+
+@media (max-width: 480px), (max-width: 767px), (min-width: 768px) and (max-width: 979px), (min-width: 980px) and (max-width: 1200px) {
+
+	.wrap.header {
+	  min-height: 100px;
+	  height: auto;
+	}
+	.wrap.footer { 
+		padding: 10px 0;
+	}
+	header,	footer,	#main { 
+		width: 100%;
+	}
+	header button.media-btn {
+		position: absolute;
+		top: 0; right: 0;
+		display: block;
+		margin: 10px 10px 0 0;
+		z-index: 2;
+	}
+	header button.media-btn i { display: block; margin: 0; }
+	@-moz-document url-prefix() {
+		header button.media-btn i {
+			position: relative;
+			top: 2px;
+		}
+	}
+	footer ul {
+		width: 100%;
+		padding: 0 10px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	footer li {
+	  width: 50%;
+	}
+	footer li:last-child {
+		text-align: right;
+	}
+	
+}
+

@@ -1,0 +1,61 @@
+/*!
+ * CSS Modification by Mark Rivera & Richard Hilton - Dog and Rooster, Inc., 2013
+ * Copyright by M.Rivera & R.Hilton, 2013
+ *
+ * Responsive CSS for Large Desktop
+ */
+
+
+@media (min-width: 980px) and (max-width: 1200px) {
+
+	body {
+		min-width: 768px;
+		width: 100%;
+	}
+	header #hdr-logo {
+	  display: block;
+		text-align: center;
+		width: 320px;
+	  height: 100px;
+	}
+	header #hdr-logo:before {
+		content: "Tablet 980 & 1200";
+		line-height: 100px;
+		padding: 0 10px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	header button.media-btn {
+		display: none !important;
+	}
+	nav { 
+		right: 10px;
+		display: block !important;
+	}
+	nav li {
+	  line-height: 100px;
+	  margin-left: 10px;
+	}
+	
+	/* START CONTENT HERE */
+	.framebox {
+	  display: block;
+	  width: 100%;
+	  padding: 0 10px;
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  box-sizing: border-box;
+	}
+	.framebox .welcome small {
+		line-height: 18px;
+	}
+	.framebox .hero-unit {
+		line-height: 18px;
+		padding: 10px;
+	}
+	.framebox .hero-unit h1 {
+		font-size: 50px;
+	}
+
+}

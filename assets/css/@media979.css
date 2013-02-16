@@ -1,0 +1,99 @@
+/*!
+ * CSS Modification by Mark Rivera & Richard Hilton - Dog and Rooster, Inc., 2013
+ * Copyright by M.Rivera & R.Hilton, 2013
+ *
+ * Responsive CSS for Portrait Tablet to Landscape and Desktop
+ */
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+	body {
+		min-width: 768px;
+		width: 100%;
+	}
+	header #hdr-logo {
+	  display: block;
+		text-align: center;
+		width: 320px;
+	  height: 100px;
+	}
+	header #hdr-logo:before {
+		content: "Tablet 768 & 979";
+		line-height: 100px;
+		padding: 0 10px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	nav { display: none; }
+	nav {
+		float: left;
+	  position: relative;
+	  min-width: 100%;
+	  width: 100%;
+	  height: 174px;
+	  z-index: 1;
+	}
+	nav ul {
+		float: left;
+	  list-style: none;
+	  width: 100%;
+	  margin: 0;
+	}
+	nav li {
+	  float: none;
+	  display: block !important;
+		background: #ffffff; /* Old browsers */
+		background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+	  line-height: normal;
+	  margin-left: 0;
+	  padding: 5px 10px;
+	}
+	nav li:hover, nav li:focus {
+		background: #ffffff; /* Old browsers */
+		background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+	}
+	nav li a { 
+		display: block;
+		color: #555;
+		text-shadow: 1px 1px 1px #FFF;
+		text-transform: uppercase;
+	}
+	nav li a:hover { 
+		color: #333;
+	}
+	
+	/* START CONTENT HERE */
+	.framebox {
+	  display: block;
+	  width: 100%;
+	  padding: 0 10px;
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  box-sizing: border-box;
+	}
+	.framebox .welcome small {
+		line-height: 18px;
+	}
+	.framebox .hero-unit {
+		line-height: 18px;
+		padding: 10px;
+	}
+	.framebox .hero-unit h1 {
+		font-size: 50px;
+	}
+
+}

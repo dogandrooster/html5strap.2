@@ -1,0 +1,31 @@
+/*!
+ * CSS Modification by Mark Rivera & Richard Hilton - Dog and Rooster, Inc., 2013
+ * Copyright by Twitter Bootstrap
+ *
+ * Core CSS
+ */
+
+::-moz-selection { background: #B3D4FC; color: #555; text-shadow: none; }
+::selection 	 { background: #B3D4FC; color: #555; text-shadow: none; }
+
+.vanadium-advice  { display: block; font-size: smaller !important; color: #9D261D; font-weight: 100; text-transform: capitalize; }
+.validation-alert { position: absolute; top: 0; left: 0; background: #BF4804; color: #FFF; text-align: center; width: 100%; padding: 20px 0; z-index: 10000; }
+
+
+/*! CSS HACKS FOR OLD AND MODERN BROWSER */
+
+.msie { }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { }
+
+@-moz-document url-prefix() { }
+
+
+/*! WEB FONTS */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+/*font-family: 'Open Sans', sans-serif;*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+/*font-family: 'Open Sans Condensed', sans-serif;*/
+
